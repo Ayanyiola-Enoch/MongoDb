@@ -115,6 +115,9 @@ form{
 }
 
 @media screen and (max-width: 480px){
+    html,body{
+        overflow-y: hidden;
+    }
     nav{
         display:inline-block;
         width: 100%;
